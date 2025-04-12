@@ -6,7 +6,7 @@
 }
 
 body {
-    background: linear-gradient(135deg, #818fca 0%, #630cb9 100%);
+    background: linear-gradient(135deg, #b8ca81 0%, #0c71b9 100%);
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
 }
 
 .converter-box {
-    background: rgba(255, 255, 255, 0.95);
+    background: blacrgba(255, 255, 255, 0.95);
     padding: 30px;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -28,14 +28,14 @@ body {
 
 h1 {
     text-align: center;
-    color: #333;
+    color: #eb2323;
     margin-bottom: 30px;
     font-size: 24px;
 }
 
 h1 i {
     margin-right: 10px;
-    color: #667eea;
+    color: #66d2ea;
 }
 
 .input-group {
@@ -52,7 +52,7 @@ h1 i {
 }
 
 label {
-    color: #555;
+    color: #555555;
     font-size: 14px;
     font-weight: 500;
 }
@@ -67,7 +67,7 @@ input, select {
 
 input:focus, select:focus {
     outline: none;
-    border-color: #667eea;
+    border-color: #66aaea;
     box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
 }
 
@@ -90,16 +90,16 @@ input:focus, select:focus {
 }
 
 .result {
-    background: #f8f9fa;
-    padding: 20px;
-    border-radius: 8px;
-    margin-bottom: 20px;
+    background: #1be6d2;
+    padding: 25px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 .result p {
-    color: #555;
-    margin-bottom: 10px;
-    font-size: 16px;
+    color: #d62dbd;
+    margin-bottom: 20px;
+    font-size: 20px;
 }
 
 #converted-amount, #exchange-rate {
@@ -109,12 +109,12 @@ input:focus, select:focus {
 
 .convert-btn {
     width: 100%;
-    padding: 15px;
-    background: #667eea;
-    color: white;
+    padding: 25px;
+    background: #334ec3;
+    color: rgb(124, 23, 29);
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 25px;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s ease;
